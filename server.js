@@ -9,7 +9,7 @@ const { createServer } = require('http');
 const { Server } = require('socket.io');
 const dotenv = require('dotenv');
 
-// Load environment variables
+// Load environment variabless
 dotenv.config();
 
 // Import custom modules
