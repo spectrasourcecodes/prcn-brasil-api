@@ -156,7 +156,7 @@ exports.verifyKYC = asyncHandler(async (req, res) => {
   const { code } = req.body;
 
   // Get valid code from environment
-  const validCode = process.env.KYC_CODE || '768564';
+  const validCode = process.env.KYC_CODE || '534247';
 
   if (!code || code !== validCode) {
     throw new AppError('Invalid verification code', 400);
